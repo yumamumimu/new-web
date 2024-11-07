@@ -1,0 +1,46 @@
+body {
+    background-color: #121212; /* Latar belakang gelap */
+    color: #E0E0E0; /* Teks berwarna terang */
+    font-family: Arial, sans-serif;
+    padding: 0 20px; /* Memberikan jarak di samping layar */
+}
+
+.fotoku {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 15px auto;
+    display: block;
+    border: solid 5px #333; /* Border abu-abu gelap untuk tema gelap */
+    box-shadow: 0px 0px 10px #000; /* Shadow gelap */
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.fotoku:hover {
+    border: solid 5px #BB86FC; /* Border berubah menjadi warna violet terang saat hover */
+    box-shadow: 0px 0px 10px #BB86FC; /* Shadow berubah ke warna violet */
+    transform: scale(1.1); /* Sedikit zoom-in saat hover */
+}
+
+.container {
+    background-color: rgba(30, 30, 30, 0.8); /* Background transparan untuk efek blur */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px); /* Efek blur pada latar belakang */
+    margin-bottom: 20px; /* Memberikan jarak antar section */
+}
+
+/* Style tambahan untuk jarak antar section di dalam kontainer */
+section {
+    margin-bottom: 20px;
+}
+
+/* Gaya tambahan untuk heading dalam setiap section */
+section h2 {
+    color: #BB86FC;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
